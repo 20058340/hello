@@ -10,4 +10,4 @@ for(let i=0; i<Z;i++){
         sum += i;
     }
 }
-alert("sum of multiples of 3 or 5 :");
+alert("sum of multiples of 3 or 5 :" sum);
