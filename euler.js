@@ -1,4 +1,4 @@
-alert("Loaded Euler JS");
+alert("Task 1");
 a=3;
 b=5;
 n=1000;
