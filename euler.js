@@ -1,4 +1,4 @@
-alert("Taks 01");
+alert("Euler Task 01");
 a=3;
 b=5;
 n=1000;
