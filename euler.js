@@ -1,11 +1,11 @@
 alert("Euler Task 01");
-a=3;
-b=5;
-n=1000;
+X=3;
+Y=5;
+Z=1000;
 
 let sum=0;
 
-for(let i=0; i<n;i++){
+for(let i=0; i<Z;i++){
     if(i%3 == 0 || i%5==0){
         sum += i;
     }
