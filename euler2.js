@@ -1,5 +1,6 @@
-function summul(a,b,n){
-    let sum = 0;
+alert("Euler task 3")
+function euler(a,b,n){
+    sum = 0;
     for (let i = 0; i < n; i++){
         if (i % a === 0 || i % b === 0){
             sum = sum + i;
@@ -8,10 +9,10 @@ function summul(a,b,n){
     return sum
 }
 
-function summulip(){
+function eulers(){
     let a = parseInt(document.getElementById("a").value);
     let b = parseInt(document.getElementById("b").value);
     let x = parseInt(document.getElementById("x").value);
-    let answer = summul(a,b,x);
+    let answer = euler(a,b,x);
     alert("sum = " + answer)
 }
