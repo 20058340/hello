@@ -10,3 +10,4 @@ function euler(a,b,n){
 }
 
 answer = euler(3,5,1000);
+alert(a+answer)
