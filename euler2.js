@@ -10,9 +10,9 @@ function euler(a,b,n){
 }
 
 function eulers(){
-    let a = parseInt(document.getElementById("a").value);
-    let b = parseInt(document.getElementById("b").value);
-    let x = parseInt(document.getElementById("x").value);
-    let answer = euler(a,b,x);
-    alert("sum = " + answer)
+    a = parseInt(document.getElementById("a").value);
+    b = parseInt(document.getElementById("b").value);
+    x = parseInt(document.getElementById("x").value);
+    result = euler(a,b,x);
+    alert("sum = " + result)
 }
