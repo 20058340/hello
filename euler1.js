@@ -9,5 +9,5 @@ function euler(a,b,n){
     return sum
 }
 
-answer = euler(3,5,1000);
-alert("Sum :" +answer)
+result = euler(3,5,1000);
+alert("Sum :" +result)
