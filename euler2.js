@@ -17,4 +17,4 @@ function eulers(){
 }
 
 result = euler(a,b,x);
-alert("sum :" + result)
+alert("sum :" +result)
