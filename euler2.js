@@ -13,8 +13,7 @@ function eulers(){
     a = number(document.getElementById("a").value);
     b = number(document.getElementById("b").value);
     x = number(document.getElementById("x").value);
-    
+    result = euler(a,b,x);
+    alert("sum :" +result)
 }
 
-result = euler(a,b,x);
-alert("sum :" +result)
