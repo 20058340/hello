@@ -13,7 +13,8 @@ function euler(){
     let a = parseInt(document.getElementById("a").value);
     let b = parseInt(document.getElementById("b").value);
     let n = parseInt(document.getElementById("n").value);
-    
+   
+
 }
 let result = euler(a,b,n);
     alert("sum :" +result)
