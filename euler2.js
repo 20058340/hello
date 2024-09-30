@@ -10,10 +10,10 @@ function euler(a,b,n){
 }
 
 function euler(){
-    a = number(document.getElementById("a").value);
-    b = number(document.getElementById("b").value);
-    n = number(document.getElementById("n").value);
+    let a = number(document.getElementById("a").value);
+    let b = number(document.getElementById("b").value);
+    let n = number(document.getElementById("n").value);
+    let result = euler(a,b,n);
+    alert("sum :" +result)
 }
-let result = euler(a,b,n);
-alert("sum :" +result)
 
