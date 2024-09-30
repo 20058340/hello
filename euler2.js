@@ -9,11 +9,11 @@ function euler(a,b,n){
     return sum
 }
 
-function eulers(){
+function euler(){
     a = number(document.getElementById("a").value);
     b = number(document.getElementById("b").value);
-    x = number(document.getElementById("x").value);
-    result = euler(a,b,x);
-    alert("sum :" +result)
+    n = number(document.getElementById("n").value);
 }
+let result = euler(a,b,n);
+alert("sum :" +result)
 
