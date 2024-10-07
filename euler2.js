@@ -9,13 +9,13 @@ function euler(a,b,n){
     return sum
 }
 
-function euler(){
+function summlip(){
     let a = parseInt(document.getElementById("a").value);
     let b = parseInt(document.getElementById("b").value);
-    let n = parseInt(document.getElementById("n").value);
+    let n = parseInt(document.getElementById("x").value);
    
 
 }
-let result = euler(a,b,n);
+let result = summlip(a,b,n);
     alert("sum :" +result)
 
