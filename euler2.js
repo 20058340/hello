@@ -13,9 +13,9 @@ function summlip(){
     let a = parseInt(document.getElementById("a").value);
     let b = parseInt(document.getElementById("b").value);
     let n = parseInt(document.getElementById("x").value);
-   
+    let result = euler(a,b,x);
+    alert("sum :" +result)
 
 }
-let result = summlip(a,b,n);
-    alert("sum :" +result)
+
 
