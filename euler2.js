@@ -12,7 +12,7 @@ function euler(a,b,n){
 function summlip(){
     let a = parseInt(document.getElementById("a").value);
     let b = parseInt(document.getElementById("b").value);
-    let n = parseInt(document.getElementById("x").value);
+    let x = parseInt(document.getElementById("x").value);
     let result = euler(a,b,x);
     alert("sum :" +result)
 
