@@ -13,9 +13,9 @@ function summlip(){
     let a = parseInt(document.getElementById("a").value);
     let b = parseInt(document.getElementById("b").value);
     let x = parseInt(document.getElementById("x").value);
-    
-}
-let result = summul(a,b,x);
+    let result = summul(a,b,x);
     alert("sum :" +result)
+}
+
 
 
