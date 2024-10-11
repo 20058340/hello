@@ -16,4 +16,4 @@ let x = [2,4,66,8,67,18,16]
 
 let result = array(a, b, x);
 
-alert("Sum :"+ result); 
+alert("Sum : "+ result); 
