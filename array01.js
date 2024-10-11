@@ -12,7 +12,7 @@ function array(a,b,n) {
 
 let a = 5
 let b = 8
-let x = [2,6,88,6,76,13,17]
+let x = [2,4,66,8,67,18,16]
 
 let result = array(a, b, x);
 
