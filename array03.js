@@ -1,14 +1,14 @@
-const a = [89, 5, 8, 7]; 
-const l = [6,9,4,2,8,6,8]; 
+const x = [49, 8, 6, 9]; 
+const y = [8,6,5,4,9,7,2]; 
 
 function calsum() {
     let sum = 0;
 
-    alert('working');
-    for (let i = 0; i < l.length; i++) {
+    alert('Success');
+    for (let i = 0; i < y.length; i++) {
         let num = l[i];
-        for (let j = 0; j < a.length; j++) {
-            if (num % a[j] === 0) {
+        for (let y = 0; j < x.length; j++) {
+            if (num % x[j] === 0) {
                 sum += num; 
                 break; 
             }
