@@ -1,7 +1,7 @@
 const x = [49, 8, 6, 9]; 
 const y = [8,6,5,4,9,7,2]; 
 
-function calsum() {
+function total() {
     let sum = 0;
 
     alert('Success');
