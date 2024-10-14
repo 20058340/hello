@@ -14,5 +14,6 @@ function total() {
             }
         }
     }
-    alert('Sum of multiples: ' +sum);
+    
 }
+alert('Sum of multiples: ' +sum);
