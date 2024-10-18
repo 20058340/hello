@@ -1,3 +1,4 @@
+alert("Basket weight")
 let f1 = (basket,prices)=>{
     let totalCost = 0;
     for(let item in basket){
